@@ -1,0 +1,26 @@
+{
+  "name": "bootstrap-to-confluence",
+  "version": "1.0.0",
+  "description": "Convert bootstrap markup and style,then import into confluence",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@dtools.ipsoft.com:7999/~wjones/bootstrap-to-confluence.git"
+  },
+  "author": "Will Jones",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "deepmerge": "^2.1.1",
+    "glob": "^7.1.2",
+    "jquery": "^3.3.1",
+    "jsdom": "^11.12.0",
+    "mustache": "^2.3.1",
+    "simple-git": "^1.96.0",
+    "sync": "^0.2.5",
+    "yargs": "^12.0.1"
+  },
+  "devDependencies": {}
+}
